@@ -1,0 +1,120 @@
+* {
+	/*border: 2px dotted black;*/
+}
+
+body {
+	background-color: #FFF;
+	margin: 0;
+}
+
+/* HEADER */ 
+
+header {
+    background-color: #fff;
+    height: 53px;
+    padding-top: .5%;
+    margin-top: 0;
+    box-shadow: 0 3px 5px #ccc;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.to_left {
+	/*border: 2px black solid;*/
+}
+
+#expand {
+	padding-left: .7%;
+	position: relative;
+	top: -5px;
+}
+
+#logo {
+	position: relative;
+	top: 5px;
+}
+
+nav form {
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	left: 3%;
+}
+
+nav div {
+	display: inline;
+}
+
+.to_right {
+	float: right;
+	margin-right: 5px;
+}
+
+#signage {
+	position: relative;
+	top: -3px;
+}
+
+#search {
+	height: 30px;
+	width: 550px;
+	border-radius: 2%;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+#submit {
+	border: none;
+	height: 35px;
+	width: 50px;
+	margin-left: 0;
+	background-color: #ddd;
+	background: url("mag.png");
+	background-size: contain;
+	background-position: 0 5px;
+	font-size: 0;
+	line-height: 0;
+	position: relative;
+	top: -4px;
+}
+
+.content {
+	margin: 2% 5%;
+	position: relative;
+	top: 53px;
+}
+
+section {
+    /*background-color: #333;*/
+    float: left;
+    clear: left;
+    width: 65%;
+}
+
+
+aside {
+	display: inline-block;
+    /*background-color: #555;*/
+    float: right;
+    clear: both;
+    max-width: 33%;
+
+}
+
+aside img {
+	max-width: 100%;
+}
+
+/* VIDEO */
+
+#video {
+	position: relative;
+	/*top: 20px;*/
+	display: inline-block;
+}
+
+#desc img {
+	max-width: 100%;
+}
