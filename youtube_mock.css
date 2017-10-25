@@ -1,13 +1,8 @@
-* {
-	/*border: 2px dotted black;*/
-}
-
 body {
-	background-color: #FFF;
 	margin: 0;
 }
 
-/* HEADER */ 
+/* HEADER & NAV */ 
 
 header {
     background-color: #fff;
@@ -19,10 +14,6 @@ header {
     top: 0px;
     width: 100%;
     z-index: 1000;
-}
-
-.to_left {
-	/*border: 2px black solid;*/
 }
 
 #expand {
@@ -41,20 +32,6 @@ nav form {
 	position: relative;
 	top: -15px;
 	left: 3%;
-}
-
-nav div {
-	display: inline;
-}
-
-.to_right {
-	float: right;
-	margin-right: 5px;
-}
-
-#signage {
-	position: relative;
-	top: -3px;
 }
 
 #search {
@@ -80,23 +57,43 @@ nav div {
 	top: -4px;
 }
 
+.to_right {
+	float: right;
+	margin-right: 5px;
+}
+
+
+/* CONTENT */
+
 .content {
 	margin: 2% 5%;
 	position: relative;
 	top: 53px;
 }
 
+/* SECTION */
+
 section {
-    /*background-color: #333;*/
     float: left;
     clear: left;
     width: 65%;
 }
 
+/* VIDEO */
+
+#video {
+	position: relative;
+	display: inline-block;
+}
+
+#desc img {
+	max-width: 100%;
+}
+
+/* ASIDE */
 
 aside {
 	display: inline-block;
-    /*background-color: #555;*/
     float: right;
     clear: both;
     max-width: 33%;
@@ -107,14 +104,3 @@ aside img {
 	max-width: 100%;
 }
 
-/* VIDEO */
-
-#video {
-	position: relative;
-	/*top: 20px;*/
-	display: inline-block;
-}
-
-#desc img {
-	max-width: 100%;
-}
